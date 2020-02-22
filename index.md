@@ -10,6 +10,5 @@ sidebar:
 I'm looking for information about
 <select>{% for term in site.data.terms %}<option>{{ term.term }}</option>{% endfor %}</select>
 
-<hr />
-# Test pre-rendered image
-![image-title-here](/graph1.png){:class="img-responsive"}
+I'm looking for information on digital harms :
+<select>{% for term in site.data.harms %}<option>{{ term.term }}</option>{% endfor %}</select>

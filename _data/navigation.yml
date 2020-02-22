@@ -4,12 +4,12 @@ main:
   - title: "GitHub"
     url: https://github.com/Me2B-Alliance/GoodTechWiki/tree/init/nodes
   - title: "Prose"
-    url: https://prose.io/Me2B-Alliance/GoodTechWiki/tree/init/nodes
+    url: https://prose.io/#Me2B-Alliance/GoodTechWiki/tree/init/nodes
 sidebar:
   - title: Browse
     children:
       - title: "Organizations"
-        url: /_pages/inventory/placeholder
+        url: /_pages/inventory/organizations
       - title: "Working Groups"
         url: /_pages/inventory/placeholder
       - title: "Events"

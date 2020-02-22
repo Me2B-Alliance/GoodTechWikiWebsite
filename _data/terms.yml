@@ -1,17 +1,4 @@
-- term: breach of confidentiality
-  type: Digital Harm
-- term: exclusion
-  type: Digital Harm
-- term: exposure
-  type: Digital Harm
-- term: impersonation
-  type: Digital Harm
-- term: insecurity
-  type: Digital Harm
-- term: surveillance
-  type: Digital Harm
-
-- term: certification
+- term: certification (activity)
   type: Activity
 - term: compliance
   type: Activity
@@ -47,4 +34,3 @@
   type: Activity
 - term: standard development
   type: Activity
-
