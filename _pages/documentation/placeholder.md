@@ -7,9 +7,5 @@ author_profile: false
 sidebar:
   nav: sidebar
 ---
-I'm looking for information about
-<select>{% for term in site.data.terms %}<option>{{ term.term }}</option>{% endfor %}</select>
 
-<hr />
-# Test pre-rendered image
-![image-title-here](/graph1.png){:class="img-responsive"}
+These pages will have how-to-use documentation

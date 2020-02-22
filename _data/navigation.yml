@@ -1,45 +1,40 @@
-xmain:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
 main:
+  - title: "TiddlyWiki"
+    url: https://ewelton.github.io/ktest/wiki.html
+  - title: "GitHub"
+    url: https://github.com/Me2B-Alliance/GoodTechWiki/tree/init/nodes
+  - title: "Prose"
+    url: https://prose.io/Me2B-Alliance/GoodTechWiki/tree/init/nodes
 sidebar:
   - title: Browse
     children:
       - title: "Organizations"
-        url: /docs/quick-start-guide/
+        url: /_pages/inventory/placeholder
       - title: "Working Groups"
-        url: /docs/quick-start-guide/
+        url: /_pages/inventory/placeholder
       - title: "Events"
-        url: /docs/structure/
+        url: /_pages/inventory/placeholder
       - title: "Publications"
-        url: /docs/installation/
+        url: /_pages/inventory/placeholder
       - title: "Products and Services"
-        url: /docs/upgrading/
+        url: /_pages/inventory/placeholder
   - title: Graphs
     children:
       - title: "Graph 1"
-        url: /docs/quick-start-guide/
+        url: /_pages/graphs/placeholder
+      - title: "Test Embedding"
+        url: /_pages/test-embedding
   - title: Topics & Tags
     children:
       - title: "Digital Harms"
-        url: /docs/quick-start-guide/
+        url: /_pages/topics/placeholder
       - title: "Activities"
-        url: /docs/structure/
+        url: /_pages/topics/placeholder
       - title: "Purposes"
-        url: /docs/installation/
-  - title: Instructions
+        url: /_pages/topics/placeholder
+  - title: Documentation
     children:
       - title: "Browsing"
-        url: /docs/quick-start-guide/
+        url: /_pages/documentation/placeholder
       - title: "Editing"
-        url: /docs/structure/
-      - title: "Edit with Prose"
-        url: https://prose.io/#Me2B-Alliance/GoodTechWiki/tree/init/nodes
-      - title: "GitHub"
-        url: https://github.com/Me2B-Alliance/GoodTechWiki/tree/init/nodes
+        url: /_pages/documentation/placeholder
