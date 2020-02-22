@@ -15,10 +15,8 @@ I'm looking for information about
 ![image-title-here](/graph1.png){:class="img-responsive"}
 
 <hr />
-<!--
 # Test directly embedding live graph
 <iframe src="http://localhost:8437" width="100%" height="100%"></iframe>
 <hr />
 # Test remote content
-<iframe src="http://ewelton.github.io/ktest/wiki.html#Welcome"></iframe>
--->
+<iframe src="http://ewelton.github.io/ktest/wiki.html#Welcome" width="100%" height="100%"></iframe>
