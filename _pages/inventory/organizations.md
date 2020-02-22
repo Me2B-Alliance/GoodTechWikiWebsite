@@ -8,4 +8,4 @@ sidebar:
   nav: sidebar
 ---
 
-<iframe height="750" width="100%" src="https://ewelton.github.io/ktest/wiki.html#Organizations%20List"></iframe>
+<iframe height="750" width="100%" src="https://ewelton.github.io/ktest/wiki.html#Organizations List"></iframe>
