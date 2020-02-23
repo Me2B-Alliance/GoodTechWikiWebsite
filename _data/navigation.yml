@@ -1,6 +1,6 @@
 main:
   - title: "TiddlyWiki"
-    url: https://ewelton.github.io/ktest/wiki.html
+    url: http://korsimoro.net:8437
   - title: "GitHub"
     url: https://github.com/Me2B-Alliance/GoodTechWiki/tree/init/nodes
   - title: "Prose"
