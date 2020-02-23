@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<script>
+function create_new(what,event) {
+  console.log("create new",what,"titled ",event.value)
+}
+</script>
+<div id="main" role="main">
+
+  <input type="text" id="newinput" class="search-input" tabindex="-1" onchange="create_new('{{page.type}}',this)"
+    placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter term here to create new entry...' }}" />
+
+  <iframe  style="border:0px;" height="750" width="100%" src="{{site.data.urls.unitiddler}}#{{page.embed}}"></iframe>
+
+</div>

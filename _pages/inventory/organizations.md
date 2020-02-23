@@ -1,11 +1,5 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: single
-author_profile: false
-sidebar:
-  nav: sidebar
+layout: inventory
+embed: Organization List
+type: organization
 ---
-
-<iframe height="750" width="100%" src="https://ewelton.github.io/ktest/wiki.html#Organizations List"></iframe>

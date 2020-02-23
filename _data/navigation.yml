@@ -11,19 +11,17 @@ sidebar:
       - title: "Organizations"
         url: /_pages/inventory/organizations
       - title: "Working Groups"
-        url: /_pages/inventory/placeholder
+        url: /_pages/inventory/groups
       - title: "Events"
-        url: /_pages/inventory/placeholder
+        url: /_pages/inventory/events
       - title: "Publications"
-        url: /_pages/inventory/placeholder
+        url: /_pages/inventory/publications
       - title: "Products and Services"
-        url: /_pages/inventory/placeholder
+        url: /_pages/inventory/product
   - title: Graphs
     children:
       - title: "Graph 1"
-        url: /_pages/graphs/placeholder
-      - title: "Test Embedding"
-        url: /_pages/test-embedding
+        url: /_pages/embedmap?t=placeholder
   - title: Topics & Tags
     children:
       - title: "Digital Harms"
