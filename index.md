@@ -3,10 +3,18 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
-author_profile: false
 sidebar:
   nav: sidebar
 ---
+<style>
+.page {
+    padding-right:25px;
+}
+iframe {
+  background: url("/loader.jpg") no-repeat;
+  min-height: 650px;
+}
+</style>
 <script>
 function doit(e) {
   if(e.value) {
@@ -14,17 +22,14 @@ function doit(e) {
   }
 }
 </script>
-Who is engaged in
-<select onchange="doit(this)">
-<option value="">Choose an activity</option>
-{% for term in site.data.terms %}<option value="/_pages/embed?t={{term.term}}">{{ term.term }}</option>{% endfor %}</select>
 
-Who is addressing:
-<select onchange="doit(this)">
-<option value="">Choose a digital harm</option>
-{% for term in site.data.harms %}<option value="/_pages/embed?t={{term.term}}">{{ term.term }}</option>{% endfor %}</select>
+<p>This is a editable database. Before adding new entries please search for the wiki to see if they are already listed. </p>
 
-Record a new
+<input type="text" id="search" class="search-input" tabindex="-1"
+  placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
+
+
+Add a new
 <select onchange="doit(this)">
 <option value="">...</option>
 <option value="/_pages/inventory/organizations">Organization</option>
@@ -35,8 +40,5 @@ Record a new
 <option value="/_pages/inventory/product">Service</option>
 </select>
 
-<input type="text" id="search" class="search-input" tabindex="-1"
-  placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-
 <div id="results" class="results"></div>
-<iframe style="border:0px;" height="750" width="100%" src="{{site.data.urls.mapserver}}#Default"></iframe>
+<iframe style="border:0px;background=white;" height="100%" width="100%" src="{{site.data.urls.mapserver}}#Welcome Graph"></iframe>

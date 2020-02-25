@@ -6,11 +6,22 @@ function create_new(what,event) {
   console.log("create new",what,"titled ",event.value)
 }
 </script>
+<style>
+iframe {
+  background: url("/loader.jpg") no-repeat;
+  height: 100%;
+  min-height: 650px;
+}
+</style>
 <div id="main" role="main">
 
-  <input type="text" id="newinput" class="search-input" tabindex="-1" onchange="create_new('{{page.type}}',this)"
-    placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter term here to create new entry...' }}" />
+  <p>This is a editable database. Before adding new entries please search for the wiki to see if they are already listed. </p>
 
-  <iframe  style="border:0px;" height="750" width="100%" src="{{site.data.urls.unitiddler}}#{{page.embed}}"></iframe>
+  <input type="text" id="newinput" class="search-input" tabindex="-1" onchange="create_new('{{page.type}}',this)"
+    placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Add a new item by naming it here...' }}" />
+
+  <iframe  style="border:0px;" height="750" width="100%" src="{{site.data.urls.unitiddler}}#{{page.embed}}">
+    Please Wait
+  </iframe>
 
 </div>

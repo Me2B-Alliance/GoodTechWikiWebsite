@@ -19,16 +19,20 @@ sidebar:
       - title: "Products and Services"
         url: /_pages/inventory/product
   - title: Graphs
+    url: /_pages/graphs/index
     children:
-      - title: "Graph 1"
-        url: /_pages/embedmap?t=placeholder
+      - title: "Welcome Graph"
+        url: /_pages/embedmap?t=Welcome Graph
   - title: Topics & Tags
+    url: /_pages/topics/index
     children:
       - title: "Digital Harms"
         url: /_pages/topics/placeholder
       - title: "Activities"
         url: /_pages/topics/placeholder
       - title: "Purposes"
+        url: /_pages/topics/placeholder
+      - title: "Tech Focus"
         url: /_pages/topics/placeholder
   - title: Documentation
     children:

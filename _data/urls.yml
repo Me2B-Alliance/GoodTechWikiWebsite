@@ -1,3 +1,6 @@
-tiddlywiki: http://korsimoro.net:8437
-unitiddler: http://korsimoro.net:8438
-mapserver: http://korsimoro.net:8439
+ltiddlywiki: http://korsimoro.net:8437
+lunitiddler: http://korsimoro.net:8438
+lmapserver: http://korsimoro.net:8439
+tiddlywiki: http://localhost:8437
+unitiddler: http://localhost:8438
+mapserver: http://localhost:8439
