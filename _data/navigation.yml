@@ -9,15 +9,15 @@ sidebar:
   - title: Browse
     children:
       - title: "Organizations"
-        url: /_pages/inventory/organizations
+        url: /_pages/inventory/github/organizations
       - title: "Working Groups"
-        url: /_pages/inventory/groups
+        url: /_pages/inventory/github/groups
       - title: "Events"
-        url: /_pages/inventory/events
+        url: /_pages/inventory/github/events
       - title: "Publications"
-        url: /_pages/inventory/publications
+        url: /_pages/inventory/github/publications
       - title: "Products and Services"
-        url: /_pages/inventory/product
+        url: /_pages/inventory/github/product
   - title: Graphs
     url: /_pages/graphs/index
     children:
@@ -27,13 +27,13 @@ sidebar:
     url: /_pages/topics/index
     children:
       - title: "Digital Harms"
-        url: /_pages/topics/placeholder
+        url: /_pages/topics/github/harms
       - title: "Activities"
-        url: /_pages/topics/placeholder
+        url: /_pages/topics/github/activities
       - title: "Purposes"
-        url: /_pages/topics/placeholder
+        url: /_pages/topics/github/purposes
       - title: "Tech Focus"
-        url: /_pages/topics/placeholder
+        url: /_pages/topics/github/tech.focus
   - title: Documentation
     children:
       - title: "Browsing"

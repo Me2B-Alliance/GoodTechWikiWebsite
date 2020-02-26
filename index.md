@@ -23,7 +23,14 @@ function doit(e) {
 }
 </script>
 
-<p>This is a editable database. Before adding new entries please search for the wiki to see if they are already listed. </p>
+<p>This is an editable database. Before adding new entries please search for the wiki to see if they are already listed. </p>
+
+
+<p>
+Browse by <a href="/_pages/topics/index">Topics &amp; Tags</a>, such as Digital Harms, Organizational Activities,
+or General Semantic tags - or use the search bar below to do a free text search.
+</p>
+
 
 <input type="text" id="search" class="search-input" tabindex="-1"
   placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
