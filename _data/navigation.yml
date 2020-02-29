@@ -1,10 +1,6 @@
 main:
-  - title: "TiddlyWiki"
+  - title: "Edit"
     url: http://korsimoro.net:8437
-  - title: "GitHub"
-    url: https://github.com/Me2B-Alliance/GoodTechWiki/tree/init/nodes
-  - title: "Prose"
-    url: https://prose.io/#Me2B-Alliance/GoodTechWiki/tree/init/nodes
 sidebar:
   - title: Browse
     children:
