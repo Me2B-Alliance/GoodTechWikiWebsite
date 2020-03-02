@@ -6,23 +6,22 @@ layout: default
   padding-left:5%;
   padding-right:25px;
 }
+iframe {
+  background: url('/loader.jpg') no-repeat center top;
+  background-size: 150px 150px;
+  min-height: 350px;
+}
 </style>
 
 ## <a href='/_pages/embed?t=quickly and easily manage your data requests in bulk'>quickly and easily manage your data requests in bulk</a>
 
-No body provided
-
-
-
-
-
-
-
+<iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#quickly and easily manage your data requests in bulk'></iframe>
 
 {% for term in site.data.metamodel.byTitle['quickly and easily manage your data requests in bulk'].nodes %}
-### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+### <a href='/_pages/embed?t={{ term.title | url_encode }}'>{{ term.title }}</a>
 
-<a href='{{ term.website }}'>{{ term.website }}</a>
+<a href='{{ term.website | url_encode }}'>{{ term.website }}</a>
+<a href='{{ term.url | url_encode }}'>{{ term.url }}</a>
 
 {{ term.description }}
 {% endfor %}

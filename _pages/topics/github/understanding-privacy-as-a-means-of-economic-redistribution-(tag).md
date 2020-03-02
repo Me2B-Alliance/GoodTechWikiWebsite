@@ -6,23 +6,22 @@ layout: default
   padding-left:5%;
   padding-right:25px;
 }
+iframe {
+  background: url('/loader.jpg') no-repeat center top;
+  background-size: 150px 150px;
+  min-height: 350px;
+}
 </style>
 
 ## <a href='/_pages/embed?t=Understanding Privacy as a Means of Economic Redistribution (tag)'>Understanding Privacy as a Means of Economic Redistribution (tag)</a>
 
-No body provided
-
-
-
-
-
-
-
+<iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Understanding Privacy as a Means of Economic Redistribution (tag)'></iframe>
 
 {% for term in site.data.metamodel.byTitle['Understanding Privacy as a Means of Economic Redistribution (tag)'].nodes %}
-### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+### <a href='/_pages/embed?t={{ term.title | url_encode }}'>{{ term.title }}</a>
 
-<a href='{{ term.website }}'>{{ term.website }}</a>
+<a href='{{ term.website | url_encode }}'>{{ term.website }}</a>
+<a href='{{ term.url | url_encode }}'>{{ term.url }}</a>
 
 {{ term.description }}
 {% endfor %}

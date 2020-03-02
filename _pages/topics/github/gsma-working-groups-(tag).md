@@ -6,23 +6,22 @@ layout: default
   padding-left:5%;
   padding-right:25px;
 }
+iframe {
+  background: url('/loader.jpg') no-repeat center top;
+  background-size: 150px 150px;
+  min-height: 350px;
+}
 </style>
 
 ## <a href='/_pages/embed?t=GSMA Working Groups (tag)'>GSMA Working Groups (tag)</a>
 
-No body provided
-
-
-
-
-
-
-
+<iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#GSMA Working Groups (tag)'></iframe>
 
 {% for term in site.data.metamodel.byTitle['GSMA Working Groups (tag)'].nodes %}
-### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+### <a href='/_pages/embed?t={{ term.title | url_encode }}'>{{ term.title }}</a>
 
-<a href='{{ term.website }}'>{{ term.website }}</a>
+<a href='{{ term.website | url_encode }}'>{{ term.website }}</a>
+<a href='{{ term.url | url_encode }}'>{{ term.url }}</a>
 
 {{ term.description }}
 {% endfor %}

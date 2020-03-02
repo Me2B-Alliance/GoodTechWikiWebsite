@@ -1,6 +1,8 @@
 main:
   - title: "Edit"
     url: http://korsimoro.net:8437
+  - title: "Feedback"
+    url: https://github.com/me2b-alliance/GoodTechWiki/issues
 sidebar:
   - title: Browse
     children:

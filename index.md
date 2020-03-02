@@ -7,7 +7,8 @@ layout: default
   padding-right:25px;
 }
 iframe {
-  background: url("/loader.jpg") no-repeat;
+  background: url("/loader.jpg") no-repeat center top;
+  background-size: 150px 150px;
   min-height: 650px;
 }
 </style>
