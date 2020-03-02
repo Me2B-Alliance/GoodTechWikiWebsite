@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## tech interoperability
+## <a href='/_pages/embed?t=tech interoperability'>tech interoperability</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['tech interoperability'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

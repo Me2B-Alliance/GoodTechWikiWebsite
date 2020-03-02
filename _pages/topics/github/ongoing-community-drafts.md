@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## ongoing community drafts
+## <a href='/_pages/embed?t=ongoing community drafts'>ongoing community drafts</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['ongoing community drafts'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

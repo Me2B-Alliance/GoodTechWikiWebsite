@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## projectmanagement|europe
+## <a href='/_pages/embed?t=projectmanagement|europe'>projectmanagement|europe</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['projectmanagement|europe'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

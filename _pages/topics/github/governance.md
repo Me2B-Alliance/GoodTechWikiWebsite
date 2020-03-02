@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## governance
+## <a href='/_pages/embed?t=governance'>governance</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['governance'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

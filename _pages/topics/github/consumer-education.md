@@ -8,12 +8,20 @@ layout: default
 }
 </style>
 
-## consumer education
+## <a href='/_pages/embed?t=consumer education'>consumer education</a>
 
-No body provided
+Describe consumer education
+
+
+
+
+
+
 
 {% for term in site.data.metamodel.byTitle['consumer education'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

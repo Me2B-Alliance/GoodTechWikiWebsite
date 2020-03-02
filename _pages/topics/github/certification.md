@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## certification
+## <a href='/_pages/embed?t=certification'>certification</a>
 
-No body provided
+Description of Certification
+
+
+
+
+
+
+
 
 {% for term in site.data.metamodel.byTitle['certification'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

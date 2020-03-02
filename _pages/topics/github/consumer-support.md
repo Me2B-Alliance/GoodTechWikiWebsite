@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## consumer support
+## <a href='/_pages/embed?t=consumer support'>consumer support</a>
 
-No body provided
+Description of Consumer Support
+
+
+
+
+
+
+
 
 {% for term in site.data.metamodel.byTitle['consumer support'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

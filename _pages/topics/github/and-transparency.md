@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## and transparency
+## <a href='/_pages/embed?t=and transparency'>and transparency</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['and transparency'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

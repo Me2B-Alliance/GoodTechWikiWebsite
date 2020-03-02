@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## simplified ux for terms of service
+## <a href='/_pages/embed?t=simplified ux for terms of service'>simplified ux for terms of service</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['simplified ux for terms of service'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

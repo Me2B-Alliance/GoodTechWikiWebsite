@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## The Coded Gaze (tag)
+## <a href='/_pages/embed?t=The Coded Gaze (tag)'>The Coded Gaze (tag)</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['The Coded Gaze (tag)'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

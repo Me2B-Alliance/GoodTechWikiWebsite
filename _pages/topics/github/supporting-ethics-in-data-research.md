@@ -8,11 +8,20 @@ layout: default
 }
 </style>
 
-## supporting ethics in data research
+## <a href='/_pages/embed?t=supporting ethics in data research'>supporting ethics in data research</a>
 
 No body provided
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['supporting ethics in data research'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## web-app
+## <a href='/_pages/embed?t=web-app'>web-app</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['web-app'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

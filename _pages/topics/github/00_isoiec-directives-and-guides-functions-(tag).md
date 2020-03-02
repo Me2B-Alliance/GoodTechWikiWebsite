@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## 00_ISO/IEC Directives and Guides Functions (tag)
+## <a href='/_pages/embed?t=00_ISO/IEC Directives and Guides Functions (tag)'>00_ISO/IEC Directives and Guides Functions (tag)</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['00_ISO/IEC Directives and Guides Functions (tag)'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

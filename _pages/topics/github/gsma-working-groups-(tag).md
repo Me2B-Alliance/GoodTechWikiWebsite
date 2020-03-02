@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## GSMA Working Groups (tag)
+## <a href='/_pages/embed?t=GSMA Working Groups (tag)'>GSMA Working Groups (tag)</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['GSMA Working Groups (tag)'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

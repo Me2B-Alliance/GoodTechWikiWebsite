@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## cross organizational collaboration
+## <a href='/_pages/embed?t=cross organizational collaboration'>cross organizational collaboration</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['cross organizational collaboration'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

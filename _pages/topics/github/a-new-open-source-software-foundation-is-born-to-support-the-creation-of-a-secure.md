@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## a new open source software foundation is born to support the creation of a secure
+## <a href='/_pages/embed?t=a new open source software foundation is born to support the creation of a secure'>a new open source software foundation is born to support the creation of a secure</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['a new open source software foundation is born to support the creation of a secure'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

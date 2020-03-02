@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## reference implementations
+## <a href='/_pages/embed?t=reference implementations'>reference implementations</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['reference implementations'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

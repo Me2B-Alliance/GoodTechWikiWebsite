@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## human rights (tag)
+## <a href='/_pages/embed?t=human rights (tag)'>human rights (tag)</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['human rights (tag)'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

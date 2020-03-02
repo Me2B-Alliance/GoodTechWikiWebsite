@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## browser extension
+## <a href='/_pages/embed?t=browser extension'>browser extension</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['browser extension'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

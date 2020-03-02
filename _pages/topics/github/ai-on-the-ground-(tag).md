@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## AI on the Ground (tag)
+## <a href='/_pages/embed?t=AI on the Ground (tag)'>AI on the Ground (tag)</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['AI on the Ground (tag)'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## ecosystem building
+## <a href='/_pages/embed?t=ecosystem building'>ecosystem building</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['ecosystem building'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

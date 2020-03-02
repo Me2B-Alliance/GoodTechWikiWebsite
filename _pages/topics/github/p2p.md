@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## p2p
+## <a href='/_pages/embed?t=p2p'>p2p</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['p2p'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

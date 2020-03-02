@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## a nutrition facts label for the information we share online
+## <a href='/_pages/embed?t=a nutrition facts label for the information we share online'>a nutrition facts label for the information we share online</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['a nutrition facts label for the information we share online'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

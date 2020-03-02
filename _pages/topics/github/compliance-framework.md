@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## compliance framework
+## <a href='/_pages/embed?t=compliance framework'>compliance framework</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['compliance framework'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

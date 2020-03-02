@@ -8,11 +8,20 @@ layout: default
 }
 </style>
 
-## fairness in precision medicine (publication) (tag)
+## <a href='/_pages/embed?t=fairness in precision medicine (publication) (tag)'>fairness in precision medicine (publication) (tag)</a>
 
 No body provided
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['fairness in precision medicine (publication) (tag)'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

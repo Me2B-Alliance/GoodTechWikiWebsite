@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## community notes
+## <a href='/_pages/embed?t=community notes'>community notes</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['community notes'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

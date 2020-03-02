@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## multi-disciplinary collaboration
+## <a href='/_pages/embed?t=multi-disciplinary collaboration'>multi-disciplinary collaboration</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['multi-disciplinary collaboration'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## and trusted iot ecosystem
+## <a href='/_pages/embed?t=and trusted iot ecosystem'>and trusted iot ecosystem</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['and trusted iot ecosystem'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

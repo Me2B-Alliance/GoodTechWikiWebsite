@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## support innovation
+## <a href='/_pages/embed?t=support innovation'>support innovation</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['support innovation'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}

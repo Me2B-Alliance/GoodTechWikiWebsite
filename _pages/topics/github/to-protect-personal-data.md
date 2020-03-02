@@ -8,12 +8,21 @@ layout: default
 }
 </style>
 
-## to protect personal data
+## <a href='/_pages/embed?t=to protect personal data'>to protect personal data</a>
 
 No body provided
 
+
+
+
+
+
+
+
 {% for term in site.data.metamodel.byTitle['to protect personal data'].nodes %}
 ### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>
+
+<a href='{{ term.website }}'>{{ term.website }}</a>
 
 {{ term.description }}
 {% endfor %}
