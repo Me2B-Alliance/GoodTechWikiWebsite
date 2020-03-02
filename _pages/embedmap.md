@@ -3,16 +3,14 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
-author_profile: false
-sidebar:
-  nav: sidebar
 ---
 <style>
 .page {
     padding-right:25px;
 }
 iframe {
-  background: url("/loader.jpg") no-repeat;
+  background: url("/loader.jpg") no-repeat center top;
+  background-size: 150px 150px;
   min-height: 650px;
 }
 </style>
@@ -22,7 +20,6 @@ const myParam = urlParams.get('t');
 const url="{{site.data.urls.mapserver}}#"+myParam
 const frame='<iframe style="border:0px;" height="750" width="100%" src="'+url+'"></iframe>'
 window.onload = function() {
-   console.log(frame)
    document.getElementById("target").innerHTML=frame;
 }
 
