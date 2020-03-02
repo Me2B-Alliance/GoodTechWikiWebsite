@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=submissions & letters'>submissions & letters</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#submissions & letters'></iframe>
 

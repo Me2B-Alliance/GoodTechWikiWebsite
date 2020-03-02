@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=Fairness in Precision Medicine(publication/report) (publication) (tag)'>Fairness in Precision Medicine(publication/report) (publication) (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Fairness in Precision Medicine(publication/report) (publication) (tag)'></iframe>
 

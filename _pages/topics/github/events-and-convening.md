@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=events and convening'>events and convening</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#events and convening'></iframe>
 

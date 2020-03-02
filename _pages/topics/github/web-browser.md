@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=web-browser'>web-browser</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#web-browser'></iframe>
 

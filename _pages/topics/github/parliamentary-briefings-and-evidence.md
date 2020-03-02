@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=parliamentary briefings & evidence'>parliamentary briefings & evidence</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#parliamentary briefings & evidence'></iframe>
 

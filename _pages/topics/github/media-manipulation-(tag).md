@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=Media Manipulation (tag)'>Media Manipulation (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Media Manipulation (tag)'></iframe>
 

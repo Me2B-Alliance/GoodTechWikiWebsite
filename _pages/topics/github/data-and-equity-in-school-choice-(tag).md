@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=Data and Equity in School Choice (tag)'>Data and Equity in School Choice (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Data and Equity in School Choice (tag)'></iframe>
 

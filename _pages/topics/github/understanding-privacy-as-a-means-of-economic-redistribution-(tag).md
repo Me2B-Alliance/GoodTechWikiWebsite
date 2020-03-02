@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=Understanding Privacy as a Means of Economic Redistribution (tag)'>Understanding Privacy as a Means of Economic Redistribution (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Understanding Privacy as a Means of Economic Redistribution (tag)'></iframe>
 

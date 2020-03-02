@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=a nutrition facts label for the information we share online'>a nutrition facts label for the information we share online</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#a nutrition facts label for the information we share online'></iframe>
 

@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=12 ISO/IEC Guides (English) (tag)'>12 ISO/IEC Guides (English) (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#12 ISO/IEC Guides (English) (tag)'></iframe>
 

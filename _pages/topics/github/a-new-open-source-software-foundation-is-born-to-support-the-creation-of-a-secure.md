@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=a new open source software foundation is born to support the creation of a secure'>a new open source software foundation is born to support the creation of a secure</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#a new open source software foundation is born to support the creation of a secure'></iframe>
 

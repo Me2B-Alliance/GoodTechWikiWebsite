@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=cross organizational collaboration products_projects parent'>cross organizational collaboration products_projects parent</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#cross organizational collaboration products_projects parent'></iframe>
 

@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=Algorithms and Publics (tag)'>Algorithms and Publics (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Algorithms and Publics (tag)'></iframe>
 

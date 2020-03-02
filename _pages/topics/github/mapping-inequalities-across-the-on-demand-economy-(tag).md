@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=Mapping Inequalities Across the On-Demand Economy (tag)'>Mapping Inequalities Across the On-Demand Economy (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#Mapping Inequalities Across the On-Demand Economy (tag)'></iframe>
 

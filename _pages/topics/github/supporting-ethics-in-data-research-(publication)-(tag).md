@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=supporting ethics in data research (publication) (tag)'>supporting ethics in data research (publication) (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#supporting ethics in data research (publication) (tag)'></iframe>
 

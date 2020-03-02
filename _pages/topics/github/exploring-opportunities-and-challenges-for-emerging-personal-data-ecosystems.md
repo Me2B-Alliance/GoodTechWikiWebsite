@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=exploring opportunities and challenges for emerging personal data ecosystems'>exploring opportunities and challenges for emerging personal data ecosystems</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#exploring opportunities and challenges for emerging personal data ecosystems'></iframe>
 

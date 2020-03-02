@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=and trusted iot ecosystem'>and trusted iot ecosystem</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#and trusted iot ecosystem'></iframe>
 

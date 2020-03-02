@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=00_ISO/IEC Directives and Guides Functions (tag)'>00_ISO/IEC Directives and Guides Functions (tag)</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#00_ISO/IEC Directives and Guides Functions (tag)'></iframe>
 

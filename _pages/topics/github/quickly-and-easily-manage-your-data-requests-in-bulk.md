@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=quickly and easily manage your data requests in bulk'>quickly and easily manage your data requests in bulk</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#quickly and easily manage your data requests in bulk'></iframe>
 

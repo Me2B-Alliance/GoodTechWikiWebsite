@@ -13,7 +13,6 @@ iframe {
 }
 </style>
 
-## <a href='/_pages/embed?t=who controls the public sphere in an era of algorithms?'>who controls the public sphere in an era of algorithms?</a>
 
 <iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#who controls the public sphere in an era of algorithms?'></iframe>
 
