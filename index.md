@@ -43,4 +43,4 @@ Explore by concept tag
 
 
 <div id="results" class="results"></div>
-<iframe style="border:0px;background=white;" height="100%" width="100%" src="{{site.data.urls.mapserver}}#Welcome Graph"></iframe>
+<iframe style="border:0px;background=white;" height="100%" width="100%" src="{{site.data.urls.mapserver}}?tmap-enlarged=fullscreen&tmap-view=Welcome Graph"></iframe>
