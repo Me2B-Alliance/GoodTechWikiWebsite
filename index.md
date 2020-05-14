@@ -42,6 +42,7 @@ Explore by concept tag
 {% for term in site.data.metamodel.types.dimension.tag %}<option value="/_pages/topics/github/{{term[1].page}}">{{ term[1].title }}</option>{% endfor %}</select>
 
 
-
+<!--
 <div id="results" class="results"></div>
 <iframe style="border:0px;background=white;" height="100%" width="100%" src="{{site.data.urls.mapserver}}?tmap-enlarged=fullscreen&tmap-view=Welcome Graph"></iframe>
+-->
